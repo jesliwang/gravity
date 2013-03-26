@@ -24,6 +24,14 @@ public class camera : MonoBehaviour {
 		GUI.Label(new Rect(0,0,100,30), tmp);
 		
 		GUI.DrawTexture(new Rect(x, y, 200, 200), MyRound);
+		
+		if(Application.platform == RuntimePlatform.Android){
+			if(Input.GetKeyDown(KeyCode.Escape)){
+				Application.LoadLevel(0);
+			}else if(Input.GetKeyDown(KeyCode.Home)){
+				
+			}
+		}
 	}
 	// Update is called once per frame
 	void Update () {
