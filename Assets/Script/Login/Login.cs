@@ -6,20 +6,19 @@ public class Login : MonoBehaviour {
 	public Texture playButton;
 	private float width;
 	private float height;
-	public AudioSource music;
+	private BackGroundMusic music;
 
 	// Use this for initialization
 	void Start () {
 		width = Screen.width;
 		height = Screen.height;
+		music = BackGroundMusic.Instance;
 		
 		if(PlayerPrefs.GetInt("background_music") > 0){
 			music.Play();
-			music.volume = 0.5f;
 		}else{
 			music.Stop();
 		}
-		
 	}
 			
 	void OnGUI () {
@@ -29,7 +28,7 @@ public class Login : MonoBehaviour {
 		
 		GUI.DrawTexture(new Rect(0,0, width, height), background, ScaleMode.StretchToFill);
 		if(GUI.Button(new Rect(width/2.0f, height/2.0f, 100, 100), playButton)){
-			Application.LoadLevel(1);
+			Application.LoadLevelAdditive(1);
 		}
 		
 		if(GUI.Button(new Rect(width/2.0f, height/2.0f+ 150f, 100, 100), playButton)){
@@ -42,4 +41,5 @@ public class Login : MonoBehaviour {
 	void Update () {
 	
 	}
+	
 }
