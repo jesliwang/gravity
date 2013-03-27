@@ -47,6 +47,7 @@
      <Compile Include="Assets\BackGroundMusic.cs" />
      <Compile Include="Assets\Script\Login\Login.cs" />
      <Compile Include="Assets\Script\Settings\Settings.cs" />
+     <Compile Include="Assets\Script\Space\Earth.cs" />
      <Compile Include="Assets\camera.cs" />
      <Compile Include="Assets\gravity.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />

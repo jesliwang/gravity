@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Login/Login.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Settings/Settings.cs">
     <Files>
-      <File FileName="Assets/Script/Login/Login.cs" Line="22" Column="3" />
       <File FileName="Assets/camera.cs" Line="8" Column="18" />
-      <File FileName="Assets/Script/Settings/Settings.cs" Line="37" Column="28" />
+      <File FileName="Assets/Script/Settings/Settings.cs" Line="26" Column="27" />
+      <File FileName="Assets/BackGroundMusic.cs" Line="13" Column="85" />
+      <File FileName="Assets/Script/Login/Login.cs" Line="31" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

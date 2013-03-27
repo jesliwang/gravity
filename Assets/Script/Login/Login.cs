@@ -35,6 +35,12 @@ public class Login : MonoBehaviour {
 			Application.LoadLevel(2);
 		}
 		
+		if(GUI.Button(new Rect(width/2.0f, height/2.0f+ 300f, 100, 100), "Space")){
+			Application.LoadLevel(3);
+		}
+		
+		
+		
 	}
 	
 	// Update is called once per frame
