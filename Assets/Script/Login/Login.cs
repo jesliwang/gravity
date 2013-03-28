@@ -27,11 +27,11 @@ public class Login : MonoBehaviour {
 		}
 		
 		GUI.DrawTexture(new Rect(0,0, width, height), background, ScaleMode.StretchToFill);
-		if(GUI.Button(new Rect(width/2.0f, height/2.0f, 100, 100), playButton)){
+		if(GUI.Button(new Rect(width/2.0f, height/2.0f, 100, 100), "Space")){
 			Application.LoadLevelAdditive(1);
 		}
 		
-		if(GUI.Button(new Rect(width/2.0f, height/2.0f+ 150f, 100, 100), playButton)){
+		if(GUI.Button(new Rect(width/2.0f, height/2.0f+ 150f, 100, 100), "Settings")){
 			Application.LoadLevel(2);
 		}
 		
